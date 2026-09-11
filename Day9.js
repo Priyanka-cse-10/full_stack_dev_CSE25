@@ -6,9 +6,18 @@ const server = http.createServer ((req, res) => {
         console.log("connection established successfully")
     });
     if (req.url==="/") {
-        
+        res.end("<h1>This is home page</h1>");
     }
-res.end("<h1>This is home page</h1>");
+    else if (req.url==="about/") {
+        res.end("<h1>This is About page</h1>");
+    }
+else if (req.url==="contact/") 
+    res.end("<h1>This is Contact Page</h1>");
+else {
+    res.writeHead(404,()=> {
+        console.log("Page not found")
+    });
+}
 })
 server.listen (3001,() => {
     console.log("server is running on http://localhost:3001")
