@@ -13,6 +13,7 @@
     "content-type": "^1.0.5",
     "cookie": "^0.7.2",
     "cookie-signature": "^1.2.2",
+    "cors": "^2.8.6",
     "debug": "^4.4.3",
     "depd": "^2.0.0",
     "dunder-proto": "^1.0.1",
@@ -84,6 +85,5 @@
   "bugs": {
     "url": "https://github.com/Priyanka-cse-10/full_stack_dev_CSE25/issues"
   },
-  "homepage": "https://github.com/Priyanka-cse-10/full_stack_dev_CSE25#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/Priyanka-cse-10/full_stack_dev_CSE25#readme"
 }
